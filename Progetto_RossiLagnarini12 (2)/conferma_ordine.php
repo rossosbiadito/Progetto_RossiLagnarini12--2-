@@ -13,6 +13,7 @@ if (!isset($_SESSION['id_utente'])) {
     header("Location: login.php");
     exit;
 }
+// DIO NEGRO BASTARDO
 
 $id_utente = $_SESSION['id_utente'];
 $totale_pagato = $_POST['totale_finale'] ?? 0;
